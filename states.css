@@ -1,0 +1,54 @@
+#states {
+	background: #165FA3;
+	color: #fff;
+}
+
+#completion {
+  background: #0F5089;
+  border-radius: 100px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  height: 140px;
+  width: 140px;
+}
+
+#completion h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#completion h2 {
+  color: #ccc;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+#legend {
+  background: #0F5089;
+  float: right;
+  list-style-type: none;
+  margin: 40px 20px;
+  padding: 15px;
+}
+
+#legend-visited,
+#legend-temporary,
+#legend-never {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+#legend-visited {
+  background: #6CA516;
+}
+
+#legend-temporary {
+  background: #CCCCCC;
+}
+
+#legend-never {
+  background: #FFFFFF;
+}
